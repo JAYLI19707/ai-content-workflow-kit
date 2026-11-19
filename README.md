@@ -106,13 +106,16 @@ For a new document, prepare these files first:
 
 Then run the workflow in this order:
 
-```text
-topic selection
-  -> source normalization
-  -> brief and page plan
-  -> document generation
-  -> language/layout polishing
-  -> QA review
+```mermaid
+flowchart LR
+    A[Topic selection] --> B[Source normalization]
+    B --> C[Episode brief]
+    C --> D[Page plan]
+    D --> E[Document generation]
+    E --> F[Language and layout polishing]
+    F --> G[QA review]
+    G -->|Issues found| E
+    G -->|Accepted| H[Final document]
 ```
 
 ## Use it with an IDE chat model
@@ -227,6 +230,18 @@ This project is released under the [MIT License](LICENSE).
 - 最终 QA 检查结果。
 
 它不是自动发布软件，不会自动登录小红书、发布内容，也不能代替人工核验技术资料。
+
+```mermaid
+flowchart LR
+    A[选题收敛] --> B[来源标准化]
+    B --> C[填写 episode brief]
+    C --> D[制定 page plan]
+    D --> E[生成文档正文]
+    E --> F[语言与版式精修]
+    F --> G[QA 复核]
+    G -->|发现问题| E
+    G -->|通过验收| H[最终文档]
+```
 
 ### 在 Codex 中使用
 
