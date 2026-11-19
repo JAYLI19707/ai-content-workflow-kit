@@ -54,6 +54,7 @@ It is a content workflow, not an automatic publishing platform. It does not log 
 ├── templates/                # Structured briefs, source logs, plans, and QA
 ├── docs/                     # Design and usage documentation
 ├── examples/                 # Example inputs and generated documents
+├── LICENSE                   # MIT open-source license
 └── starter/                  # Minimal files to copy into another project
 ```
 
@@ -192,7 +193,7 @@ Create the empty GitHub repository before running the final `git remote` and `gi
 
 ## License
 
-No license has been selected yet. Add a license before accepting external contributions or distributing the repository as reusable software.
+This project is released under the [MIT License](LICENSE).
 
 ---
 
@@ -301,6 +302,10 @@ No license has been selected yet. Add a license before accepting external contri
 ### 语言按钮说明
 
 README 顶部的 `English` 和 `中文` 是 GitHub 兼容的页面跳转按钮。GitHub README 不执行 JavaScript，因此它们不是动态下拉切换，而是跳转到对应语言区域。
+
+### 开源许可证
+
+本项目采用 [MIT License](LICENSE)。你可以自由使用、复制、修改和分发本项目，但需要保留原许可证和版权声明。
 
 ---
 
