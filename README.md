@@ -1,6 +1,6 @@
 <div align="center">
 
-# Codex Content Production Kit
+# AI Content Workflow Kit
 
 Reusable prompts, workflows, templates, and agent rules for producing structured technical learning documents with Codex or an IDE chat model.
 
@@ -16,7 +16,7 @@ Reusable prompts, workflows, templates, and agent rules for producing structured
 
 ## What is this?
 
-This repository is a small, file-based content production system for AI-assisted technical writing.
+This repository is a small, file-based content production system for AI-assisted technical writing. It is designed to work with Codex and IDE chat models.
 
 It helps you turn a topic into a structured document by separating:
 
@@ -201,7 +201,7 @@ This project is released under the [MIT License](LICENSE).
 
 ## 中文说明
 
-这是一个给 Codex、GitHub Copilot Chat、ChatGPT、Claude 等 IDE 聊天模型使用的**技术内容生产模板项目**。
+这是一个名为 **AI Content Workflow Kit**、给 Codex、GitHub Copilot Chat、ChatGPT、Claude 等 IDE 聊天模型使用的**技术内容生产模板项目**。
 
 它把“让模型写一份内容”拆成几个稳定步骤：
 
